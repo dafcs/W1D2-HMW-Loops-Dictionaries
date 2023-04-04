@@ -15,7 +15,7 @@ stops.append("Edinburgh Waverley") #1
 stops.insert(0,"Glasgow Queen St") #2
 stops.insert(4, "Polmont") #3
 print(stops.index("Linlithgow")) #4
-stops.remove("Linlithgow") #5
+stops.remove("Livingston") #5
 stops.pop(stops.index("Cumbernauld")) #6
 print(stops) #7
 sorted(stops)#8
