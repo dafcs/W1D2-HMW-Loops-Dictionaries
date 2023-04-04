@@ -11,10 +11,14 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Ha
 #9. Reverse the positions of the stops in the list
 #10 Print out all the stops using a for loop
 
-stops.append("Edinburgh Waverley")
-stops.insert(0,"Glasgow Queen St")
-stops.insert(4, "Polmont")
-print(stops.index("Linlithgow"))
-stops.pop("Linlithgow")
-stops.pop(stops.index("Cumbernauld"))
-print(stops)
+stops.append("Edinburgh Waverley") #1
+stops.insert(0,"Glasgow Queen St") #2
+stops.insert(4, "Polmont") #3
+print(stops.index("Linlithgow")) #4
+stops.remove("Linlithgow") #5
+stops.pop(stops.index("Cumbernauld")) #6
+print(stops) #7
+sorted(stops)#8
+sorted(stops, reverse=True)
+for stop in stops:
+    print(stop)
